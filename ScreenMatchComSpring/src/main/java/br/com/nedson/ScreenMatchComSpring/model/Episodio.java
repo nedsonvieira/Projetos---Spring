@@ -1,6 +1,5 @@
 package br.com.nedson.ScreenMatchComSpring.model;
 
-import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 
@@ -27,8 +26,6 @@ public class Episodio {
         }catch (DateTimeParseException ex){
             this.dataLancamento = null;
         }
-
-
     }
 
     public Integer getTemporada() {
