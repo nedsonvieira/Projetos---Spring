@@ -31,8 +31,6 @@ public class Principal {
     }
 
     public void menu() {
-        var tipoVeiculo = 0;
-        var json = "";
         boolean entradaValidaVeiculo = false;
         boolean entradaValidaMarca = false;
         boolean entradaValidaModelo = false;
@@ -45,7 +43,7 @@ public class Principal {
                         "\n[3] - Caminhões");
                 System.out.println("Escolha o tipo de veículo para pesquisar [1], [2] ou [3]:");
 
-                tipoVeiculo = leitor.nextInt();
+                var tipoVeiculo = leitor.nextInt();
                 leitor.nextLine();
 
                 if (tipoVeiculo >= 1 && tipoVeiculo <= 3) {
