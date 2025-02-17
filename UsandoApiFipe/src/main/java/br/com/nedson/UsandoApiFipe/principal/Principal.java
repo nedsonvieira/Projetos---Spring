@@ -39,8 +39,8 @@ public class Principal {
         while (!entradaValidaVeiculo) {
             try {
                 System.out.println("[1] - Carros" +
-                        "\n[2] - Motos" +
-                        "\n[3] - Caminhões");
+                                 "\n[2] - Motos" +
+                                 "\n[3] - Caminhões");
                 System.out.println("Escolha o tipo de veículo para pesquisar [1], [2] ou [3]:");
 
                 var tipoVeiculo = leitor.nextInt();
