@@ -129,8 +129,6 @@ public class Principal {
                 "\nMelhor Ep: " + est.getMax() +
                 "\nPior ep: " + est.getMin() +
                 "\nQuantidade: " + est.getCount());
-
-
     }
 
 }
