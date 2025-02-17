@@ -30,7 +30,7 @@ public class Principal {
 
     }
 
-    public void exibeMenu() {
+    public void menu() {
         var tipoVeiculo = 0;
         var json = "";
         boolean entradaValidaVeiculo = false;
